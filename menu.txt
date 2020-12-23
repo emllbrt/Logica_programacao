@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro menu = 0
+		escreva("Escolha uma opção:"+"\n"+"1- Abrir Netflix"+"\n"+"2- Abrir Amazon Prime"+"\n"+"3- Abrir Stremio"+"\n"+"4- Sair"+"\n")
+		
+leia(menu)
+
+		escolha(menu){
+			caso 1:
+			escreva("Selecionada a opção "+menu+" abrindo netflix")
+			pare
+
+			caso 2:
+			escreva("Selecionada a opção "+menu+" abrindo amazon prime")
+			pare
+
+			caso 3:
+			escreva("Selecionada a opção "+menu+" abrindo stremio")
+			pare
+
+			caso 4:
+			escreva("Selecionada a opção "+menu+" saindo...")
+			pare
+
+			caso contrario:
+			escreva("Você deve escolher entre as opções 1-4")
+		}
+	}
+}
